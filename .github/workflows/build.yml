@@ -11,3 +11,4 @@ jobs:
         run: curl -sLS https://firecracker.exit.o6s.io
       - name: get cow 2
         run: curl -sLS https://firecracker.exit.o6s.io
+
