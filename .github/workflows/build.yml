@@ -7,5 +7,7 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello ASCII Cows!"
-      - name: get cow
+      - name: get cow 1
+        run: curl -sLS https://firecracker.exit.o6s.io
+      - name: get cow 2
         run: curl -sLS https://firecracker.exit.o6s.io
