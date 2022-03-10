@@ -1,4 +1,3 @@
-# this
+# curl-with-bash
 
-Build this
-
+Invokes an endpoint exposed with [inlets](https://inlets.dev)
