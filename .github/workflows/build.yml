@@ -9,4 +9,3 @@ jobs:
         run: echo "Hello ASCII Cows!"
       - name: get cow 1
         run: curl -sLS https://firecracker.exit.o6s.io
-
