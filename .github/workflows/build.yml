@@ -9,11 +9,11 @@ jobs:
         run: echo "Hello ASCII Cows!"
       - name: get cow 1
         run: curl -sLS https://firecracker.exit.o6s.io
-      - name: sleep-30-seconds
-        run: sleep 30
       - name: working-dir
         run: pwd
       - name: list-current-folder
         run: ls -ltrh
       - name: uname
         run: uname -a
+      - name: list-k3s-nodes
+        run: kubectl get nodes
