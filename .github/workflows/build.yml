@@ -15,5 +15,7 @@ jobs:
         run: ls -ltrh
       - name: uname
         run: uname -a
-      - name: list-k3s-nodes
-        run: kubectl get nodes
+      - name: install-kind
+        run: go get sigs.k8s.io/kind
+      - name: spin-up-k8s
+        run: kind create cluster
