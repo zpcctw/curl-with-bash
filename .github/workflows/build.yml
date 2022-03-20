@@ -10,6 +10,8 @@ jobs:
       - name: get cow 1
         run: curl -sLS https://firecracker.exit.o6s.io
       - name: sleep-30-seconds
-        run: sleep 30
+        run: sleep 60
       - name: list-current-folder
         run: ls -ltrh
+      - name: uname
+        run: uname -a
